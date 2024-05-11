@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+
+        <!-- Primer elemento -->
+
+        <TextView
+            android:id="@+id/textView_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=
+                "Transforma tu día a día con un simple vistazo a tu muñeca. Descubre el smartwatch que te empodera para alcanzar tus metas, cada paso del camino."
+            android:textSize="24sp"
+            android:typeface="monospace" />
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_view1"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/smartw" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Watch W29 "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="h W29 Pro Masculino Feminino Troca Foto Pulseira Recebe Notificaçoes Tela Infinita 47mm"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $120.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Segundo elemento -->
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view2"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ultra" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smartwatch W69 Ultra 2gb"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Relogio Inteligente Lançamento Original 49mm Tela Amoled Android IOS"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $405.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Tercer elemento -->
+        <LinearLayout
+            android:id="@+id/layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view3"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/watchs34" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apple unveils Apple Watch"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apple unveils Apple Watch Series 6 and affordable SE model"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $180.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Cuarto elemento -->
+        <LinearLayout
+            android:id="@+id/layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view4"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/correas" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Correas"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Correa de todos los colores para tu reloj inteligente"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $270.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Quinto elemento -->
+        <LinearLayout
+            android:id="@+id/layout_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view5"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cargawarch" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upgraded T55"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+Upgraded T55 / T500 Watch Cable, Watch Holder Magnetic 2 pin Cable, Watch Charging Cable, T55..."
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $80.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Información de contacto:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telfono: 320941939"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Calle N 7 90-79"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="País: Colombia"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciudad: Bogotá"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

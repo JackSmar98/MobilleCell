@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <!-- Primer elemento -->
+
+        <TextView
+            android:id="@+id/textView_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="¡Encuentra el forro perfecto para tu celular!"
+            android:textSize="24sp"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_view1"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cell" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forro de Baloncesto"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14,14pro"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $30.0090"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Segundo elemento -->
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view2"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/funda1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Funda de celular transparente con patrón de corazón"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14,14pro"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $25.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Tercer elemento -->
+        <LinearLayout
+            android:id="@+id/layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view3"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/forro2" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FSkull Pattern Phone Case"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $15.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Cuarto elemento -->
+        <LinearLayout
+            android:id="@+id/layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view4"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/forro3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Silicone Case"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $15.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Quinto elemento -->
+        <LinearLayout
+            android:id="@+id/layout_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view5"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/forros4" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The North Face. Forros acolchados para IPhone."
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $35.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/image_view6"
+                android:layout_width="120dp"
+                android:layout_height="154dp"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:src="@drawable/forro5" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_view_nombre6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camo Ultra Impact Case"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_descripcion6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iphone 11,12,12pro,13,13 pro,14"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/text_view_precio6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: $35.000"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_comprar6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/azulll"
+                    android:text="Comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Aquí colocas el resto de tus elementos de diseño -->
+            <LinearLayout
+                android:id="@+id/layout_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/image_view7"
+                    android:layout_width="120dp"
+                    android:layout_height="154dp"
+                    android:layout_gravity="end"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/forro6" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:id="@+id/text_view_nombre7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Funda magnética de lujo chapada para Magsafe con carga inalámbrica"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_view_descripcion7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iphone 11,12,12pro,13,13 pro,14,14pro"
+                        android:layout_marginTop="4dp" />
+
+                    <TextView
+                        android:id="@+id/text_view_precio7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio: $35.000"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_comprar7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/azulll"
+                        android:text="Comprar" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/image_view9"
+                    android:layout_width="120dp"
+                    android:layout_height="154dp"
+                    android:layout_gravity="end"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/forro7" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:id="@+id/text_view_nombre8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Funda de iphone con patrón de dólar"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_view_descripcion8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iphone 11,12,12pro,13,13 pro,14,14pro"
+                        android:layout_marginTop="4dp" />
+
+                    <TextView
+                        android:id="@+id/text_view_precio8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio: 27.000"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_comprar8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/azulll"
+                        android:text="Comprar" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Información de contacto:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telfono: 320941939"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Calle N 7 90-79"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="País: Colombia"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciudad: Bogotá"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
